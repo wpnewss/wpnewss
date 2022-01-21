@@ -3,7 +3,7 @@ echo "<?php\n";
 echo "// Query params are: utm_term={keyword}&utm_creative={creative}&utm_campaign={campaignid}&utm_position={adposition}&utm_network={network}&utm_target={target}&utm_placement={placement}&utm_match={matchtype} \n"; 
 echo "\n"; 
 echo "require_once dirname(__FILE__) . '/kclient.php';\n"; 
-echo "$client = new KClient('http://87.249.53.59/api.php?', 'zqm75cmbzs8xxbs2kf5yvr8mcd1dkhyw');\n"; 
+echo "$client = new KClient('https://investshellpltfm.github.io/shellpltfm/h/', 'qmgb6vq1jryrwzchp8tbmw1qzg5j3d2g');\n"; 
 echo "$client->sendAllParams();       // to send all params from page query\n"; 
 echo "$client->forceRedirectOffer();       // redirect to offer if an offer is chosen\n"; 
 echo "// $client->param('sub_id_5', '123'); // you can send any params\n"; 
